@@ -111,7 +111,7 @@ The following results are reported in the manuscript. Precision and F1 are macro
 | Shenyang | 97.11 | 89.48 | 95.51 | 94.29 |
 | **Overall** | **95.09** | **87.07** | **92.68** | **92.95** |
 
-<img width="100%" alt="Segmentation results comparison" src="https://github.com/user-attachments/assets/3010f6ee-0190-4204-b4ae-a76654307689" />
+PyTorch implementation of DBEFNet for fine-grained urban village segmentation using remote sensing imagery and building morphology.
 
 ## License and acknowledgments
 
