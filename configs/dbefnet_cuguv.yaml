@@ -1,0 +1,22 @@
+# Default DBEFNet configuration for prepared CUGUV data.
+dataset_dir: datasets/CUGUV
+train_split: train
+val_split: val
+input_shape: 512
+label_encoding: "01"
+batch_size: 4
+num_workers: 4
+num_epochs: 100
+learning_rate: 0.0001
+weight_decay: 0.01
+poly_power: 0.9
+focal_alpha: 0.75
+focal_gamma: 2.0
+weight_focal: 1.0
+weight_dice: 1.0
+weight_ce: 1.0
+max_grad_norm: 1.0
+patience: 50
+seed: 42
+device: auto
+output_dir: outputs/DBEFNet
