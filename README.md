@@ -1,6 +1,6 @@
 # DBEFNet
 
-PyTorch implementation of **DBEFNet: A Dual-Branch Fusion Network integrating remote sensing imagery and building morphology for urban village segmentation**.
+PyTorch implementation of **DBEFNet: A Dual-Branch Fusion Network for Fine-Grained Urban Village Segmentation via Remote Sensing Imagery and Building Morphology**.
 
 DBEFNet combines remote sensing imagery and building morphology for urban village segmentation. The imagery branch uses parallel CNN and Swin Transformer streams to encode visual appearance and context. The building branch encodes five morphology layers and adaptively weights their features. A hybrid attention fusion module connects the two modalities before a progressive segmentation head produces pixel-level predictions.
 
